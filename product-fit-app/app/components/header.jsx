@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <header className="flex w-full vs:h-40 bg-gray-100 vs:justify-center ts:h-[120px] items-center ts:pl-[60px] ts:pr-[60px] ns:p-0">
+        <header className="flex w-full vs:h-40 bg-[#F8FFFF] vs:justify-center ts:h-[120px] items-center ts:pl-[60px] ts:pr-[60px] ns:p-0">
             <Image
                 className="ts:hidden"
                 src='images/mobilelogo.svg'
