@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <body>
       <Header />
-      <main className="bg-[#F8FFFF] flex flex-col justify-center items-center">
+      <main className="bg-[#F8FFFF] flex flex-col justify-center items-center vs:pb-[66px] ts:pb-[84px]">
         <Start />
         <Sliper />
         <Sliper2 />
