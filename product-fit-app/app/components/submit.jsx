@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Submit = () => {
     return (
-        <div className="flex vs:flex-col ts:flex-row vs:mt-[90px] vs:justify-center vs:items-center">
+        <div className="flex vs:flex-col ts:flex-row ts:mt-[120px] vs:mt-[90px] vs:justify-center vs:items-center">
             <Image
                 className=""
                 src='images/Group1234.svg'

@@ -127,7 +127,98 @@ const ToggleBlock = () => {
 
                         </Swiper>
                     </div>
-                    
+                    <div className='ts:grid ts:grid-cols-[repeat(3,_320px)] ts:grid-rows-[repeat(2,_320px)] ts:gap-x-[58px] ts:gap-y-[46px] vs:hidden items-center justify-center ts:mt-[50px]'>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <div className='flex justify-center items-center flex-col rounded-[25px] w-[320px] h-[320px] bg-[linear-gradient(180deg,_#fff_0%,_#f7f9fd_100%)]'>
+                                <Image
+                                    className=""
+                                    src='images/image19.svg'
+                                    width={210} // Ширина изображения
+                                    height={175}
+                                    alt="none"
+                                />
+                                <p className='font-bold text-[16px] text-[#1e959b] mt-[19px]'>Cabify</p>
+                                <p className='font-normal text-[14px] text-[#3c3c3c] w-[232px] mt-[5px]'>Кроссплатформенное приложение
+                                    под Android и iOS разработано на
+                                    React Native(Python)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             )}

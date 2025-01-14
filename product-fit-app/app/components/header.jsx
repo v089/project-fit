@@ -38,12 +38,12 @@ const Header = () => {
                 />
             </a>
             <Image
-                    className="vs:hidden ts:block ns:block mr-[58px]"
-                    src='images/Group65.svg'
-                    width={160}
-                    height={31.68}
-                    alt="none"
-                />
+                className="vs:hidden ts:block ns:block mr-[58px]"
+                src='images/Group65.svg'
+                width={160}
+                height={31.68}
+                alt="none"
+            />
             <button className="vs:hidden ts:block ns:block w-[186.78px] h-[62.26px] bg-[#F05670] rounded-[15px] text-[#fff]">Начать проект</button>
 
         </header>

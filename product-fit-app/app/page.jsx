@@ -16,20 +16,15 @@ export default function Home() {
     <body>
       <Header />
       <main className="bg-[#F8FFFF] flex flex-col justify-center items-center">
-
         <Start />
         <Sliper />
         <Sliper2 />
         <Agitation />
-        <Projects/>
-        <Orders/>
-        <Submit/>
-
+        <Projects />
+        <Orders />
+        <Submit />
       </main>
       <Footer />
-
-
     </body>
-
   );
 }
