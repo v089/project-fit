@@ -1,24 +1,64 @@
-// "use_client";
-// import React from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.css';
+"use_client";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+import Image from 'next/image';
 
-// const Slider = () => {
-//   const slides = [
-//     { id: 1, content: 'Слайд 1' },
-//     { id: 2, content: 'Слайд 2' },
-//     { id: 3, content: 'Слайд 3' },
-//   ];
+const Sliper = () => {
 
-//   return (
-//     <Swiper spaceBetween={50} slidesPerView={1}>
-//       {slides.map(slide => (
-//         <SwiperSlide key={slide.id}>
-//           <div>{slide.content}</div>
-//         </SwiperSlide>
-//       ))}
-//     </Swiper>
-//   );
-// };
+  return (
+    <div className='w-full h-[90px] ts:hidden bg-[#1e959b] flex items-center justify-center mt-[163px]'>
+    <Swiper >
+      
+        <SwiperSlide className=''>
+          <div className='flex items-center justify-center'><Image
+            className="ts:hidden"
+            src='images/image8.svg'
+            width={177} // Ширина изображения
+            height={55}
+            alt="none"
+          /></div>
+        </SwiperSlide>
+        <SwiperSlide className=''>
+          <div className='flex items-center justify-center'><Image
+            className="ts:hidden"
+            src='images/image8.svg'
+            width={177} // Ширина изображения
+            height={55}
+            alt="none"
+          /></div>
+        </SwiperSlide>
+        <SwiperSlide className=''>
+          <div className='flex items-center justify-center'><Image
+            className="ts:hidden"
+            src='images/image8.svg'
+            width={177} // Ширина изображения
+            height={55}
+            alt="none"
+          /></div>
+        </SwiperSlide>
+        <SwiperSlide className=''>
+          <div className='flex items-center justify-center'><Image
+            className="ts:hidden"
+            src='images/image8.svg'
+            width={177} // Ширина изображения
+            height={55}
+            alt="none"
+          /></div>
+        </SwiperSlide>
+        <SwiperSlide className=''>
+          <div className='flex items-center justify-center'><Image
+            className="ts:hidden"
+            src='images/image8.svg'
+            width={177} // Ширина изображения
+            height={55}
+            alt="none"
+          /></div>
+        </SwiperSlide>
 
-// export default Slider;
+    </Swiper>
+    </div>
+  );
+};
+
+export default Sliper;
