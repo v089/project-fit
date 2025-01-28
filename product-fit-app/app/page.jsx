@@ -10,6 +10,8 @@ import Start from "./components/start";
 import Projects from "./components/projects";
 import Orders from "./components/orders";
 import Submit from "./components/submit";
+import NextAuth from "next-auth";
+import Link from "next/link";
 
 export default function Home() {
   return (

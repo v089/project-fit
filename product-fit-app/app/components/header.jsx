@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -44,7 +45,7 @@ const Header = () => {
                 height={31.68}
                 alt="none"
             />
-            <button className="vs:hidden ts:block ns:block w-[186.78px] h-[62.26px] bg-[#F05670] rounded-[15px] text-[#fff]">Начать проект</button>
+            <Link href='login'><button className="vs:hidden ts:block ns:block w-[186.78px] h-[62.26px] bg-[#F05670] rounded-[15px] text-[#fff]">Авторизоваться</button></Link>
 
         </header>
     );
